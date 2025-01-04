@@ -1,0 +1,89 @@
+Micah Briney
+-------------------HOW TO TRIGGER-------------------------------------
+First wait for an OreBlob to appear. The world event is prevented from
+occuring while OreBlobs are not present. This is due to the nature of
+their behavior change.
+
+Clicking anywhere after an OreBlob appears will trigger the world
+event.
+
+-------------------WHAT HAPPENS WHEN EVENT IS TRIGGERED---------------
+When the world event is triggered Portals will appear in a grid
+pattern around the location of the mouse click. Attacker entities will
+appear on top or underneath the portals.
+
+Tiles around the portals will change to be covered in broken bottles.
+Grass background tiles will become grass broken bottle tiles and dirt
+tiles will become dirt broken bottle tiles.
+
+The OreBlobs will change their target and appearance.
+
+-------------------WHAT AFFECTED ENTITES DO---------------------------
+The world event will cause the OreBlobs to change into AttackMode and
+their color will change from green to red.
+
+The target of the OreBlobs will also change from Veins to Attackers.
+
+Lastly their Death animation will change in appearance from green to
+red.
+
+-------------------WHAT THE NEW ENTITY IS-----------------------------
+Two new entities where added.
+The FIRST new entity is the static entity Death. Death replaced the
+Quake class.
+
+The SECOND new entity is the mobile entity Attacker.
+
+-------------------HOW DOES THE NEW ENETIY BEHAVE---------------------
+The Death entity allows for multiple types of entities to preform a
+death sequence.
+
+Veins keep their same Quake sequence. The Attackers (robot Rick or
+lazy programmer, you decide) also shared the same vein death sequence.
+The OreBlobs have two different imageStores for their different modes.
+Red OreBlob death or Green OreBlob death.
+
+The Attacker entity targets OreBlobs and when they are adjacent will
+try to destroy them.
+
+-------------------TESTING NOTES--------------------------------------
+1. The Attacker entity in the upper left corner will start to move
+when an OreBlob appears.
+This serves two purposes.
+    a. This is to show that the World Event, and not the existence of
+       Attackers, triggers the change in OreBlob behavior. Which again
+       is changing targets from Veins to Attackers.
+    b. Show the change in appearance of the Green OrbBlob Death
+       sequence.
+
+2. Waiting to click until an OreBlob appears can result in missing the
+observation of a Green OrbBlob behavior and their Death sequence. So,
+click early to allow viewport navigation of the world map without
+triggering the world event.
+
+3. Two good tests to run:
+    a. Clicking far away from an OreBlob early in the game so the
+       Attackers and OreBlobs need to navigate a long distance before
+       meeting.
+    b. Clicking on the lake area to see the difference between grass
+       and dirt tile transformations. This also shows that Attackers
+       cannot spawn on obstacles.
+
+-------------------TO DOS----------------------------------------------
+1. Refactor Attacker class and OreBlob class. They share a lot of
+similarity and could both become children of the a parent Attacker
+class.
+
+2. Some OreBlobs remain Green when attacking. I believe this has
+something to due with the time it take the Ores to become OreBlobs.
+It seems to occur when an Ore that was created before the world event
+becomes an OreBlob after the world event.
+
+-------------------FUTURE FEATURES-------------------------------------
+1. When Attackers are destroyed their portals should close.
+2. Attacker death sequence should be unique
+3. When no attackers exist OreBlobs should either target Miners or
+Veins
+4. Add health to OreBlobs and Attackers for longer entity existence
+5. Add fight sequence to Attackers and OreBlobs
+6. Add Ore to OreBlob transformation sequence

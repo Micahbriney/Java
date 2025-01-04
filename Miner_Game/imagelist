@@ -1,0 +1,98 @@
+blacksmith images/blacksmith.bmp 255 255 255 0
+portal images/portals_1.gif 0 0 0 0
+portal images/portals_2.gif 0 0 0 0
+portal images/portals_3.gif 0 0 0 0
+portal images/portals_4.gif 0 0 0 0
+portal images/portals_5.gif 0 0 0 0
+portal images/portals_6.gif 0 0 0 0
+blob images/blob1.bmp 255 255 255 0
+blob images/blob2.bmp 255 255 255 0
+blob images/blob3.bmp 255 255 255 0
+blob images/blob4.bmp 255 255 255 0
+blob images/blob5.bmp 255 255 255 0
+blob images/blob6.bmp 255 255 255 0
+blob images/blob7.bmp 255 255 255 0
+blob images/blob8.bmp 255 255 255 0
+blob images/blob9.bmp 255 255 255 0
+blob images/blob10.bmp 255 255 255 0
+blob images/blob11.bmp 255 255 255 0
+blob images/blob12.bmp 255 255 255 0
+blobg images/blobg1.png 0 248 0 0
+blobg images/blobg2.png 0 248 0 0
+blobg images/blobg3.png 0 248 0 0
+blobg images/blobg4.png 0 248 0 0
+blobg images/blobg5.png 0 248 0 0
+blobg images/blobg6.png 0 248 0 0
+blobg images/blobg7.png 0 248 0 0
+blobg images/blobg8.png 0 248 0 0
+blobg images/blobg9.png 0 248 0 0
+blobr images/blobr1.png 248 2 2 0
+blobr images/blobr2.png 248 2 2 0
+blobr images/blobr3.png 248 2 2 0
+blobr images/blobr4.png 248 2 2 0
+blobr images/blobr5.png 248 2 2 0
+blobr images/blobr6.png 248 2 2 0
+blobr images/blobr7.png 248 2 2 0
+blobr images/blobr8.png 248 2 2 0
+blobr images/blobr9.png 248 2 2 0
+miner images/miner1.bmp 252 252 252 0
+miner images/miner2.bmp 252 252 252 0
+miner images/miner3.bmp 252 252 252 0
+miner images/miner4.bmp 252 252 252 0
+miner images/miner5.bmp 252 252 252 0
+morty images/Morty1.bmp 255 255 255 0
+morty images/Morty2.bmp 255 255 255 0
+morty images/Morty3.bmp 255 255 255 0
+morty images/Morty4.bmp 255 255 255 0
+rick images/Rick1.bmp 255 255 255 0
+rick images/Rick2.bmp 255 255 255 0
+rick images/Rick3.bmp 255 255 255 0
+rick images/Rick4.bmp 255 255 255 0
+quake images/quake1.bmp 255 255 255 0
+quake images/quake2.bmp 255 255 255 0
+quake images/quake3.bmp 255 255 255 0
+quake images/quake4.bmp 255 255 255 0
+quake images/quake5.bmp 255 255 255 0
+quake images/quake6.bmp 255 255 255 0
+death images/Death_1.png 0 248 0 0
+death images/Death_2.png 0 248 0 0
+death images/Death_3.png 0 248 0 0
+death images/Death_4.png 0 248 0 0
+death images/Death_5.png 0 248 0 0
+death images/Death_6.png 0 248 0 0
+death images/Death_7.png 0 248 0 0
+death images/Death_8.png 0 248 0 0
+death images/Death_9.png 0 248 0 0
+death images/Death_10.png 0 248 0 0
+death images/Death_11.png 0 248 0 0
+death images/Death_12.png 0 248 0 0
+death images/Death_13.png 0 248 0 0
+death images/Death_14.png 0 248 0 0
+death images/Death_15.png 0 248 0 0
+death images/Death_16.png 0 248 0 0
+deathr images/Death_1r.png 248 2 2 0
+deathr images/Death_2r.png 248 2 2 0
+deathr images/Death_3r.png 248 2 2 0
+deathr images/Death_4r.png 248 2 2 0
+deathr images/Death_5r.png 247 2 1 0
+deathr images/Death_6r.png 248 2 2 0
+deathr images/Death_7r.png 248 2 2 0
+deathr images/Death_8r.png 248 2 2 0
+deathr images/Death_9r.png 248 2 2 0
+deathr images/Death_10r.png 248 2 2 0
+deathr images/Death_11r.png 248 2 2 0
+deathr images/Death_12r.png 248 2 2 0
+deathr images/Death_13r.png 248 2 2 0
+deathr images/Death_14r.png 248 2 2 0
+deathr images/Death_15r.png 248 2 2 0
+deathr images/Death_16r.png 248 2 2 0
+ore images/greenore.png 83 79 113 0
+obstacle images/obstacle.bmp
+grass images/grass.bmp
+grassBottle images/grassBottle.bmp
+dirtBottle images/dirtBottle.jpg
+rocks images/rock.bmp
+dirt images/dirt.bmp
+vein images/vein.bmp
+isotope322 images/Isotope322-1.bmp
+background_default images/none.bmp
